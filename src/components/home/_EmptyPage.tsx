@@ -5,7 +5,7 @@ export function EmptyPage() {
   return (
     <ContentContainer>
       <Illustration src="/assets/illustration-empty.svg" alt="page empty" />
-      <Title>There is nothing here</Title>
+      <Title>There is nothing here yet!</Title>
       <Description>
         Create an invoice by clicking the
         <strong className="mobile"> New </strong>

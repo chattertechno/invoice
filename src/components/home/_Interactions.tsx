@@ -17,7 +17,7 @@ export const Interactions = () => {
   return (
     <InteractionsContainer>
       <div>
-        <Title>Invoices</Title>
+        <Title>Unique Invoices</Title>
         <Count>You have a total of {invoices.length} invoices</Count>
       </div>
       <LeftArea>

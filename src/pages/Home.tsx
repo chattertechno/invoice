@@ -14,7 +14,7 @@ export default function Home() {
   const { formOpen } = useContext(FormContext)
   const [isEmpty, setIsEmpty] = useState<boolean>(false)
   const invoices = getInvoices()
-
+ 
   useEffect(() => {
     invoices.length === 0 ? setIsEmpty(true) : setIsEmpty(false)
   }, [invoices])
